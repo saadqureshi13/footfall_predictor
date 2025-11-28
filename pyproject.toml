@@ -1,0 +1,19 @@
+
+[tool.poetry]
+name = "footfall_predictor"
+version = "0.1.0"
+description = "A service that predicts the footfall of Nike stores in Berlin"
+authors = ["Saad Ahmed Qureshi"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.116.1"
+uvicorn = {extras = ["standard"], version = "^0.35.0"}
+pydantic = "^2.11.7"
+httpx = "^0.28.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
